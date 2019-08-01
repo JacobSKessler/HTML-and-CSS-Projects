@@ -1,0 +1,11 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1cm;
+}
+
+.input {
+    width: 7%;
+    margin: 20px;
+    border: 10px solid blue;
+    border-radius: 14%;
+}
