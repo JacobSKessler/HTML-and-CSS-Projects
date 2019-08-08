@@ -1,0 +1,90 @@
+.target {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: grayscale(50%);
+    border-radius: 15%;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px dashed blue;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: aqua;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar a {
+    display: block;
+    background-color: aquamarine;
+    color: brown;
+}
+
+.navbar a:hover {
+    background-color: bisque;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    color: blueviolet;
+    height: 260px;
+}
+
+p:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: cornflowerblue;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
